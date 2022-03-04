@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: sans-serif;
+}
+.Navbar{
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(5px 5px 10px rgb(153, 152, 152));
+}
+
+.logo{ 
+    width: 200px;
+    padding: 20px 25px;
+}
+
+.Hero > img{
+    width: 70%;
+    margin: 5% 15%;
+}
+.Hero > h1{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.Hero > p{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+/* THIS IS FOR CARD.JS CSS */
+
+.Card{
+    margin: 5%;
+}
+
+.Avb{
+    position: relative;
+    background-color: rgba(255, 235, 205, 0.534);
+    border: 1px solid black;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 1%;
+    z-index: 1;
+}
+
+.Avb > h3{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+
+.card-image-section{
+    margin-top: -50px;
+    z-index: 0;
+}
+
+.rating{
+    margin-left: 0.7%;
+    display: flex;
+    font-size: 1rem;
+}
+.rating > img{
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 20px;
+    height: 20px;
+}
+.rating > p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.info{
+    margin-left: 0.7%;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: rgb(92, 93, 95);
+}
+.origin{
+    color: rgb(114, 111, 111);
+}
+.price{
+    margin-left: 0.7%;
+}
